@@ -1,0 +1,12 @@
+[
+
+{ "nom" : "chanteur","type" : "jazz","domaine" : "artistique","prix" : 35,"contact":"meynard@lirmm.fr"},
+{ "nom" : "reparateur","type" : "voiture","domaine" : "mecanique","prix" : 23 ,"contact":"ulliana@lirmm.fr"},
+{ "nom" : "prof","type" : "particulier","domaine" : "math","prix" : 15,"contact":"pompidor@lirmm.fr"},
+{ "nom" : "danseur","type" : "salsa","domaine" : "artistique","prix" : 35,"contact":"pompidor@lirmm.fr"},
+{ "nom" : "prof","type" : "guitare","domaine" : "artistique","prix" : 35,"contact": "jack23@gmail.com"},
+{ "nom" : "avocat","type" : "particulier","domaine" : "juridique","prix" : 35,"contact": "zak30@gmail.com"},
+{ "nom" : "cuisinier","type" : "particulier","domaine" : "gastronomie","prix" : 35,"contact": "tomy34@gmail.com"}
+
+]
+

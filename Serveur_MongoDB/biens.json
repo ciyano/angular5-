@@ -1,0 +1,12 @@
+[
+    {"preteur":"meynard@lirmm.fr", "nom":"scie", "type":"outil","prix" : "33","etat" : "trés bon"},  
+      
+    {"preteur":"pompidor@lirmm.fr", "nom":"marteau", "type":"outil","prix" : "15","etat" : "trés bon"},
+
+    {"preteur":"pompidor@lirmm.fr", "nom":"jeu de go", "type":"jeu","prix" : "19","etat" : "trés bon"},
+
+    {"preteur":"ulliana@lirmm.fr", "nom":"marteau", "type":"outil","prix" : "99","etat" : "trés bon"},
+
+    {"preteur":"inconnu@lirmm.fr", "nom":"marteau", "type":"outil","prix" : "65","etat" : "trés bon"}
+]
+

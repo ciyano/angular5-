@@ -1,0 +1,27 @@
+
+  <h3>Vous pouvez ajouter un bien a prèter</h3>
+
+<div>
+  <form>
+    <label for="preteur">Email du preteur</label>
+    <input type="text" id="preteur" name="preteur" placeholder="Votre email.." [(ngModel)]="preteur">
+
+    <label for="nom">Nom du bien</label>
+    <input type="text" id="nom" name="nom" placeholder="Nom du bien.."[(ngModel)]="nom" >
+
+    <label for="type">Son type</label>
+    <input type="text" id="type" name="type" placeholder="Son type.." [(ngModel)]="type">
+
+    <label for="prix">Son prix</label>
+    <input type="text" id="prix" name="prix" placeholder="Prix.." [(ngModel)]="prix">
+
+    <label for="etat">Son état</label>
+    <select id="etat" name="etat" [(ngModel)]="etat">
+      <option value="moyen">Moyen</option>
+      <option value="bon">Bon</option>
+      <option value="très bon">Très bon</option>
+    </select>
+
+    <input type="submit" value="Ajoutez" (click)="insertion()">
+  </form>
+</div>

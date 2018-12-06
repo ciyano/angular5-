@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+
+
+  </head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <div class="container">
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li> <a routerLink=''>Accueil</a></li>
+            <li> <a routerLink='biens'>Biens</a> </li>
+            <li> <a routerLink='membres'>Membres</a> </li>
+            <li> <a routerLink='services'>Services</a> </li>
+            <li> <a routerLink='biens/AjoutBien'>Ajoutez un bien</a> </li>
+            <li> <a routerLink='rechercheBien'>Cherchez un bien</a> </li>
+            <li> <a routerLink='register'>Inscription</a> </li>
+            <li> <a routerLink='rechercheBiensMembres'>Recherchez Biens et leurs preteurs</a> </li>
+
+          </ul>
+          <form class="navbar-form navbar-right inline-form">
+
+              <router-outlet></router-outlet>
+
+          </form>
+        </div>
+      </nav>
+
+    </div>
+  </body>
+  </html>

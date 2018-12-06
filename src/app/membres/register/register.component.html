@@ -1,0 +1,44 @@
+<html>
+<body>
+
+    <form >
+      <div class="container">
+        <h1>Inscription</h1>
+        <p>Veuillez remplir tout les champs de ce formulaire</p>
+        <hr>
+        <label for="nom"><b>add name</b></label>
+        <input type="text" placeholder="add name.." name="nom" [(ngModel)]="nom" >
+
+        <label for="prenom"><b>add first name</b></label>
+        <input type="text" placeholder="prenom.." name="prenom" [(ngModel)]="prenom">
+
+        <label for="adresse"><b>mettez votre adresse</b></label>
+        <input type="text" placeholder="adresse.." name="adresse" [(ngModel)]="adresse">
+
+        <label for="telephone"><b>mettez votre téléphone</b></label>
+        <input type="text" placeholder="téléphone.." name="telephone" [(ngModel)]="telephone">
+
+        <label for="email"><b>mettez votre adresse mail</b></label>
+        <input type="text" placeholder="adresse.." name="email" [(ngModel)]="email">
+
+        <label for="password"><b>mettez votre password</b></label>
+        <input type="password" placeholder="password.." name="password" [(ngModel)]="password">
+        <hr>
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+        <button type="submit" class="registerbtn" (click)="insertionUser()">Confirmer</button>
+      </div>
+
+      <div class="container signin">
+        <p>Vous avez déja un compte? <a class="button" routerLink='login'>Connectez-vous ici </a> </p>
+        <router-outlet></router-outlet>
+
+      </div>
+
+
+    </form>
+
+
+
+    </body>
+    </html>

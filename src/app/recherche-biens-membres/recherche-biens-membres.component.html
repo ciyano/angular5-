@@ -1,0 +1,28 @@
+<!--
+<br>
+<br>
+<br>
+<div>
+  Recherchez le contact d'un bien <input type="text" [(ngModel)]="nomBien">
+       {{nomBien}}
+        <button class= "button1" (click) = "chercher()">chercher</button>
+        <div class="divRechBien" *ngFor="let rep of reponse">
+        <p> le preteur est : {{rep.nom}} {{rep.prenom}} qui habite le {{rep.adresse}} contactez le sur :{{rep.email}}</p>
+        </div>
+ </div>
+-->
+
+<div>
+
+ <label>La prise dun contact d'un preteur</label>
+ <input type="text"  placeholder="Quel bien vous cherchez.."[(ngModel)]="nomBien" >
+ {{nomBien}}
+
+ <input type="submit" value="Chercher le contact" (click)="chercher()">
+
+
+</div>
+
+<div class="divRechBien" *ngFor="let rep of reponse">
+    <p> le preteur est : {{rep.prenom}} {{rep.nom}}  qui habite le {{rep.adresse}} contactez le sur :{{rep.email}}</p>
+</div>

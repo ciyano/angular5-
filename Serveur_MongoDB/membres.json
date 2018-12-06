@@ -1,0 +1,15 @@
+[
+    {"nom":"Meynard", "prenom":"Michel","adresse": "19 rue joch","telephone": "0605776655","email":"meynard@lirmm.fr","password":"azerty23"},
+    {"nom":"Pompidor", "prenom":"Pierre","adresse": "19 rue joch","telephone": "0605776655", "email":"pompidor@lirmm.fr","password":"eokr34"},    
+    {"nom":"Ulliana", "prenom":"Federico","adresse": "19 rue joch","telephone": "0605776655", "email":"ulliana@lirmm.fr","password":"okjdef44"},
+    {"nom": "dupont","prenom": "jack","adresse": "19 rue joch","telephone": "0605776655","email": "jack23@gmail.com","password":"oihfdf4"},
+    {"nom": "auqier","prenom": "zakaria","adresse": "23 rue albert","telephone": "0605447788","email": "zak30@gmail.com","password":"okokok3"},
+    {"nom": "zid","prenom": "tom","adresse": "123 rue de la belle","telephone": "0545778888","email": "tomy34@gmail.com","password":"plokoo1"},
+    {"nom":"mahrez","prenom":"kanté","adresse":"2345 voie d'o","telephone":"0906954565","email":"zaza@gmail.com","password":"pupu56"}
+]
+
+
+
+
+
+
