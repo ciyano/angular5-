@@ -1,0 +1,14 @@
+le projet consiste a créer un application web permettant l echange gracieux de services et de biens .
+
+les fonctionnalités a implementer coté serveurs :
+creation d une base de donnée mongoDB
+une collection membres , competences , biens utilisations 
+
+Implémentation d un serveur NodeJS :
+inscription d un nouveau membres 
+creation/supprisssion 
+emprunt d un bien 
+recherche avec mot clé 
+
+
+''l application elle est en phase de finition ''
